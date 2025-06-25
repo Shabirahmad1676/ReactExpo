@@ -4,7 +4,7 @@
 // return (
 //     <Stack screenOptions={{
 //         headerStyle: {
-//         backgroundColor: '#f4511e',
+//         backgroundColor: '#e3fc02ff',
 //         },
 //         headerTintColor: 'black',
 //         headerTitleStyle: {
@@ -12,8 +12,8 @@
 //         },
 //     }}>
 //     <Stack.Screen name="index" options={{title:'Home'}} />
-//     <Stack.Screen name="about" options={{title:'About'}} />
-//     <Stack.Screen name="details" options={{title:'Details'}} />
+//     {/* <Stack.Screen name="about" options={{title:'About'}} /> */}
+//     {/* <Stack.Screen name="details" options={{title:'Details'}} /> */}
 //     </Stack>
 // );
 // }
@@ -103,7 +103,8 @@ import { Stack } from 'expo-router';
 export default function Layout() {
   return (
     <Stack>
-      <Stack.Screen name="(tab)" options={{ headerShown: false }} />
+      {/* <Stack.Screen name="(drawer)" options={{ headerShown: false }} /> */}
+      {/* <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> */}
     </Stack>
   );
 }
